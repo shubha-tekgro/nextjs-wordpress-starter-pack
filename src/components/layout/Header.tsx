@@ -1,15 +1,16 @@
-import Link from "next/link";
+import React from "react";
 
-export function Header() {
+export const Header = () => {
   return (
-    <header className="bg-gray-800 text-white">
-      <nav className="container mx-auto flex items-center justify-between px-4 py-4">
-        <Link href="/" className="font-bold text-xl">MyStarter</Link>
-        <ul className="flex gap-6">
-          <li><Link href="/" className="hover:underline">Home</Link></li>
-          <li><Link href="/about" className="hover:underline">About</Link></li>
+    <header className="bg-primary text-white p-4 shadow-md flex justify-between items-center">
+      <h1 className="font-bold text-xl">Starter Pack</h1>
+      <nav>
+        <ul className="flex gap-4">
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
         </ul>
       </nav>
     </header>
   );
-}
+};

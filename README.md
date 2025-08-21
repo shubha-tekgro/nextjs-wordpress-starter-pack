@@ -1,45 +1,32 @@
-# 🚀 Next.js + Tailwind Starter
+# Next.js + Tailwind + TypeScript + Redux + WordPress Starter Pack
 
-This is a **starter template** for building modern web applications with:
+## Stack
+- Next.js (App Router)
+- Tailwind CSS
+- TypeScript
+- Redux Toolkit
+- WordPress REST API
 
-- [Next.js 15](https://nextjs.org) (App Router)
-- [Tailwind CSS](https://tailwindcss.com) (utility‑first styling)
-- [TypeScript](https://www.typescriptlang.org/) (type safety and DX)
-- **Path alias** `@/*` for clean imports
-- Example **reusable components** (`Header`, `Footer`, `Hero`)
-- Powered by [pnpm](https://pnpm.io) 🚀
+## Quick Start
+1. Install dependencies:
+```bash
+pnpm install
+```
 
----
+2. Start dev server:
+```bash
+pnpm dev
+```
 
-## 🚀 Getting Started
+3. Open [http://localhost:3000](http://localhost:3000)
 
-### Install dependencies
-bash pnpm install
+## Customization
+- Change colors & fonts in `tailwind.config.js`
+- Connect to your WordPress site in `services/wordpress.ts`
+- Add components in `src/components`
+- Add pages in `src/app`
 
-text
-
-
-### Run the dev server
-bash pnpm dev
-
-text
-
-
-Visit 👉 http://localhost:3000
-
----
-
-## 📦 Scripts
-
-- `pnpm dev` → Start dev server  
-- `pnpm build` → Production build  
-- `pnpm start` → Run production build  
-
----
-
-## 🏁 Summary
-
-✅ Next.js + Tailwind + TypeScript starter  
-✅ Alias imports (`@/*`)  
-✅ Reusable components  
-✅ Run with `pnpm dev`
+## Notes
+- Minimal, clean starter pack to quickly build WordPress-integrated Next.js apps
+- Start changing theme colors & fonts in `tailwind.config.js`
+- Ready for your own components, pages, and WordPress integration

@@ -1,9 +1,9 @@
-export function Footer() {
+import React from "react";
+
+export const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-400">
-      <div className="container mx-auto px-4 py-6 text-center">
-        <p>© {new Date().getFullYear()} MyStarter. All rights reserved.</p>
-      </div>
+    <footer className="bg-secondary text-white p-4 text-center">
+      &copy; {new Date().getFullYear()} Starter Pack. All rights reserved.
     </footer>
   );
-}
+};
